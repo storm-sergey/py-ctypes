@@ -22,8 +22,7 @@ void* foo3(double d, int l, const wchar_t* s)
 void foo4(int rows, int array[rows])
 {
     printf("%d \n", rows);
-    for (int i = 0; i < rows; i++)
-    {
+    for (int i = 0; i < rows; i++) {
         printf("%d ", array[i]);
     }
 }
